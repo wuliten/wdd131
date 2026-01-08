@@ -1,25 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.parent {
+display: grid;
+grid-template: auto 1fr auto / auto 1fr auto;
 }
 
-.ex5 parent {
-    display: grid;
-    grid-template: auto 1fr auto / auto 1fr auto;
-}
-nav {
-    background-color: steelblue;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+header {
+padding: 2rem;
+grid-column: 1 / 4;
 }
 
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
-    text-decoration: none;
+.left-side {
+grid-column: 1 / 2;
 }
 
+main {
+grid-column: 2 / 3;
+}
+
+.right-side {
+grid-column: 3 / 4;
+}
+
+footer {
+grid-column: 1 / 4;
+}
