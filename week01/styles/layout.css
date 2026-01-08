@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+.ex5 parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
 nav {
-    background-color: black;
+    background-color: steelblue;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
