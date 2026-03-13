@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #003366;
+}
+
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#hamburger {
+    display: inline-block;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 0;
+}
+
+nav a:hover {
+    background-color: #0055a5;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.temple-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
