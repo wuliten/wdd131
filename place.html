@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Kingdom</title>
+    <meta name="description" content="Country page based on the UK">
+    <meta name="author" content="Bryan Borst">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>United Kingdom</h1>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <picture>
+                <source srcset="images/uk-large.webp" media="(min-width: 768px)">
+                <img src="images/uk-small.webp" alt="London skyline with Big Ben">
+            </picture>
+        </section>
+
+        <section class="info">
+            <h2>About the UK</h2>
+            <p>
+                The United Kingdom is made up of England, Scotland, Wales, and Northern Ireland.
+                It is known for its rich history, iconic landmarks like Big Ben, and its influence
+                on global culture, politics, and language.
+            </p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+
+            <div class="weather-content">
+                <img src="images/weather.svg" alt="Cloudy weather icon" class="mobile-icon">
+
+                <p>Temperature: <span id="temp">48</span>°F</p>
+                <p>Wind Speed: <span id="wind">10</span> mph</p>
+                <p>Wind Chill: <span id="windChill"></span></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> 🇬🇧 United Kingdom</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+</body>
+
+</html>

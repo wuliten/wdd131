@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #012169;
+    /* UK blue */
+    --secondary-color: #ffffff;
+    --accent-color: #c8102e;
+    /* UK red */
+    --text-color: #222;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 1.5rem;
+}
+
+.info {
+    line-height: 1.6;
+}
+
+.weather {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.mobile-icon {
+    width: 50px;
+}
+
+@media (min-width: 768px) {
+    .mobile-icon {
+        display: none;
+    }
+
+    .weather h2::after {
+        content: " ⛅";
+    }
+}
