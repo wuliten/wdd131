@@ -20,33 +20,37 @@
 
     <main>
 
-        <section class="hero">
+        <div class="hero-container">
+
             <picture>
                 <source srcset="images/uk-large.webp" media="(min-width: 768px)">
-                <img src="images/uk-small.webp" alt="London skyline with Big Ben">
+                <img src="images/uk-small.webp" alt="United Kingdom scenery">
             </picture>
-        </section>
 
-        <section class="info">
-            <h2>About the UK</h2>
-            <p>
-                The United Kingdom is made up of England, Scotland, Wales, and Northern Ireland.
-                It is known for its rich history, iconic landmarks like Big Ben, and its influence
-                on global culture, politics, and language.
-            </p>
-        </section>
+            <section class="data-box">
+                <h2>Data</h2>
+                <p><strong>Area:</strong> 243,610 sq km</p>
+                <p><strong>Population:</strong> 67,736,802</p>
+                <p><strong>Capital:</strong> London</p>
+                <p><strong>Languages:</strong> English, Welsh, Scottish Gaelic</p>
+                <p><strong>Currency:</strong> Pound Sterling (£)</p>
+                <p><strong>Time Zone:</strong> UTC+0</p>
+                <p><strong>Calling Code:</strong> +44</p>
+                <p><strong>Internet TLD:</strong> .uk</p>
+            </section>
 
-        <section class="weather">
-            <h2>Weather</h2>
+            <section class="weather-box">
+                <h2>Weather</h2>
 
-            <div class="weather-content">
-                <img src="images/weather.svg" alt="Cloudy weather icon" class="mobile-icon">
+                <img src="images/weather.svg" alt="Weather icon" class="mobile-icon">
 
-                <p>Temperature: <span id="temp">48</span>°F</p>
-                <p>Wind Speed: <span id="wind">10</span> mph</p>
-                <p>Wind Chill: <span id="windChill"></span></p>
-            </div>
-        </section>
+                <p><strong>Temperature:</strong> <span id="temp">10</span> °C</p>
+                <p><strong>Conditions:</strong> Cloudy</p>
+                <p><strong>Wind:</strong> <span id="wind">16</span> km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windChill"></span></p>
+            </section>
+
+        </div>
 
     </main>
 
