@@ -29,12 +29,11 @@ function displayTemples(filteredTemples) {
 }
 
 function filterTemples(type) {
-    let filtered = temples;
-    if (type === "old") filtered = temples.filter(t => new Date(t.dedicated).getFullYear() < 1900);
-    else if (type === "new") filtered = temples.filter(t => new Date(t.dedicated).getFullYear() > 2000);
-    else if (type === "large") filtered = temples.filter(t => t.area > 90000);
-    else if (type === "small") filtered = temples.filter(t => t.area < 10000);
-    displayTemples(filtered);
+    if (type === "home") displayTemples(temples);
+    else if (type === "old") displayTemples(temples.filter(t => new Date(t.dedicated).getFullYear() < 1900));
+    else if (type === "new") displayTemples(temples.filter(t => new Date(t.dedicated).getFullYear() > 2000));
+    else if (type === "large") displayTemples(temples.filter(t => t.area > 90000));
+    else if (type === "small") displayTemples(temples.filter(t => t.area < 10000));
 }
 
 displayTemples(temples);
@@ -52,7 +51,7 @@ hamburger.addEventListener('click', () => {
 document.querySelectorAll('#main-nav a').forEach(link => {
     link.addEventListener('click', event => {
         event.preventDefault();
-        const filterType = link.getAttribute('data-filter');
+        const filterType = link.dataset.filter;
         filterTemples(filterType);
         if (window.innerWidth < 600) nav.style.display = 'none';
     });
