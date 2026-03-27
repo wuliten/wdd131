@@ -6,11 +6,10 @@ const temples = [
     { templeName: "Washington D.C.", location: "Kensington, Maryland, United States", dedicated: "1974-11-19", area: 156558, imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg" },
     { templeName: "Lima Perú", location: "Lima, Perú", dedicated: "1986-01-10", area: 9600, imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg" },
     { templeName: "Mexico City Mexico", location: "Mexico City, Mexico", dedicated: "1983-12-02", area: 116642, imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg" },
-    { templeName: "Salt Lake Temple", location: "Salt Lake City, Utah, United States", dedicated: "1893-04-06", area: 253000, imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple.jpg" },
-    { templeName: "Paris France Temple", location: "Paris, France", dedicated: "2017-05-21", area: 44175, imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/paris-france-temple.jpg" },
-    { templeName: "Accra Ghana Temple", location: "Accra, Ghana", dedicated: "2004-01-11", area: 17500, imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple.jpg" }
+    { templeName: "Salt Lake Temple", location: "Salt Lake City, Utah, United States", dedicated: "1893-04-06", area: 253000, imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Salt_Lake_Temple_2019.jpg" },
+    { templeName: "Paris France Temple", location: "Le Chesnay, France", dedicated: "2017-05-21", area: 44175, imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Paris_France_Temple_exterior.jpg" },
+    { templeName: "Accra Ghana Temple", location: "Accra, Ghana", dedicated: "2004-01-11", area: 17500, imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Accra_Ghana_Temple.jpg" }
 ];
-
 const container = document.getElementById("temple-container");
 
 function displayTemples(filteredTemples) {
