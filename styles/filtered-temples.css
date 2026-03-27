@@ -35,6 +35,7 @@ nav a {
     text-decoration: none;
     color: #ffffff;
     padding: 8px 0;
+    transition: background-color 0.2s;
 }
 
 nav a:hover {
@@ -42,7 +43,7 @@ nav a:hover {
 }
 
 main {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 20px auto;
     padding: 10px;
 }
@@ -50,7 +51,7 @@ main {
 .temple-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15px;
+    gap: 20px;
 }
 
 #temple-container section {
@@ -64,11 +65,11 @@ main {
 
 #temple-container section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 #temple-container h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 10px 0;
 }
 
@@ -101,5 +102,11 @@ footer {
 @media(min-width: 900px) {
     .temple-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width: 1200px) {
+    .temple-grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
