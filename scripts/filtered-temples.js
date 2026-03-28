@@ -9,6 +9,8 @@ const temples = [
     { templeName: "Salt Lake Temple", location: "Salt Lake City, Utah, United States", dedicated: "1893-04-06", area: 253000, imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-temple-37762.jpg" },
     { templeName: "Paris France Temple", location: "Le Chesnay, France", dedicated: "2017-05-21", area: 44175, imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/paris-france/2018/400x250/Paris-Temple02.jpg" },
     { templeName: "Accra Ghana Temple", location: "Accra, Ghana", dedicated: "2004-01-11", area: 17500, imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/400x225/accra-ghana-temple-detail-249022-2400x1200.jpg" }
+    { templeName: "Denver Colorado Temple", location: "Denver, Colorado, United States", dedicated: "1986-04-27", area: 54730, imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/denver-colorado/400x250/denver-colorado-mormon-temple-941603-wallpaper.jpg" },
+    { templeName: "Columbia South Carolina Temple", location: "Columbia, South Carolina, United States", dedicated: "1999-05-02", area: 16200, imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-south-carolina/400x250/columbia-south-carolina-temple-1377477-wallpaper.jpg" }
 ];
 const container = document.getElementById("temple-container");
 
