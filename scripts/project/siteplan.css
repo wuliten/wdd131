@@ -1,0 +1,49 @@
+:root {
+    --primary: #1E3A5F;
+    --secondary: #F4F4F4;
+    --accent: #00C2CB;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--secondary);
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-left: 5px solid var(--accent);
+    border-radius: 8px;
+}
+
+h2 {
+    color: var(--primary);
+    font-family: 'Orbitron', sans-serif;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.wireframe {
+    border: 2px dashed var(--accent);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.box {
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+}
