@@ -27,11 +27,21 @@
             <fieldset>
                 <legend>Overall Rating</legend>
 
-                <label><input type="radio" name="rating" value="1" required> ☆</label>
-                <label><input type="radio" name="rating" value="2"> ☆☆</label>
-                <label><input type="radio" name="rating" value="3"> ☆☆☆</label>
-                <label><input type="radio" name="rating" value="4"> ☆☆☆☆</label>
-                <label><input type="radio" name="rating" value="5"> ☆☆☆☆☆</label>
+                 <input type="radio" id="r1" name="rating" value="1" required>
+                    <label for="r1">☆</label>
+
+                <input type="radio" id="r2" name="rating" value="2">
+  v                 <label for="r2">☆☆</label>
+
+                <input type="radio" id="r3" name="rating" value="3">
+                    <label for="r3">☆☆☆</label>
+
+                <input type="radio" id="r4" name="rating" value="4">
+                    <label for="r4">☆☆☆☆</label>
+
+                <input type="radio" id="r5" name="rating" value="5">
+                    <label for="r5">☆☆☆☆☆</label>
+
             </fieldset>
 
             <label for="installDate">Date of Installation</label>
@@ -39,11 +49,19 @@
 
             <fieldset>
                 <legend>Useful Features</legend>
-
-                <label><input type="checkbox" name="features" value="durable"> Durable</label>
-                <label><input type="checkbox" name="features" value="easy"> Easy to Use</label>
-                <label><input type="checkbox" name="features" value="design"> Good Design</label>
-                <label><input type="checkbox" name="features" value="value"> Good Value</label>
+            
+                <input type="checkbox" id="f1" name="features[]" value="durability">
+                <label for="f1">Durability</label>
+            
+                <input type="checkbox" id="f2" name="features[]" value="ease">
+                <label for="f2">Ease of Use</label>
+            
+                <input type="checkbox" id="f3" name="features[]" value="performance">
+                <label for="f3">Performance</label>
+            
+                <input type="checkbox" id="f4" name="features[]" value="design">
+                <label for="f4">Design</label>
+            
             </fieldset>
 
             <label for="review">Written Review</label>
